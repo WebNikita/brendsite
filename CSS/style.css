@@ -1,0 +1,251 @@
+
+*{
+	font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
+}
+.content:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.content { display: inline-block;}
+/* start commented backslash hack \*/
+* html .content { height: 1%; }
+.content { display: block; }
+/* close commented backslash hack */
+.footer{
+	height: 330px;
+	background-color: #F4F4F4;
+}
+li{
+	list-style: none;
+	padding: 0;
+}
+ul{
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: black;
+
+}
+a:hover{
+	color: black;
+}
+hr{
+	height: 130%;
+}
+input[type="checkbox"]{
+	display: none;
+}
+input[type="checkbox"]:checked + label::before{
+	background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMjYiIGhlaWdodD0iMjYiCnZpZXdCb3g9IjAgMCAyNiAyNiIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBkPSJNIDIyLjU2NjQwNiA0LjczMDQ2OSBMIDIwLjc3MzQzOCAzLjUxMTcxOSBDIDIwLjI3NzM0NCAzLjE3NTc4MSAxOS41OTc2NTYgMy4zMDQ2ODggMTkuMjY1NjI1IDMuNzk2ODc1IEwgMTAuNDc2NTYzIDE2Ljc1NzgxMyBMIDYuNDM3NSAxMi43MTg3NSBDIDYuMDE1NjI1IDEyLjI5Njg3NSA1LjMyODEyNSAxMi4yOTY4NzUgNC45MDYyNSAxMi43MTg3NSBMIDMuMzcxMDk0IDE0LjI1MzkwNiBDIDIuOTQ5MjE5IDE0LjY3NTc4MSAyLjk0OTIxOSAxNS4zNjMyODEgMy4zNzEwOTQgMTUuNzg5MDYzIEwgOS41ODIwMzEgMjIgQyA5LjkyOTY4OCAyMi4zNDc2NTYgMTAuNDc2NTYzIDIyLjYxMzI4MSAxMC45Njg3NSAyMi42MTMyODEgQyAxMS40NjA5MzggMjIuNjEzMjgxIDExLjk1NzAzMSAyMi4zMDQ2ODggMTIuMjc3MzQ0IDIxLjgzOTg0NCBMIDIyLjg1NTQ2OSA2LjIzNDM3NSBDIDIzLjE5MTQwNiA1Ljc0MjE4OCAyMy4wNjI1IDUuMDY2NDA2IDIyLjU2NjQwNiA0LjczMDQ2OSBaIj48L3BhdGg+PC9zdmc+') 50% 50% no-repeat;
+	background-size: 100%;
+}
+label{
+
+}
+label::before{
+	content:'';
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid black;
+	margin-right: 2%;
+	
+}
+.wrapper{
+	
+}
+.img{
+	padding-top: 2.4%;
+	padding-bottom: 2.4%;
+	text-align: center;
+	color: white;
+	background-image: url(../IMG/Goods/Baner_norway.png);	
+}
+.img>h1{
+	
+}
+.nav-link{
+	padding-left: 70%;
+	font-size: 125%;
+	font-weight: bold;
+}
+.navbar-brand{
+	padding: 1.5%;
+	font-size: 140%;
+	font-weight: bold;
+}
+.nav_item{
+	margin: 4%;
+}
+.li_link{
+	text-decoration: none;
+	color: black;
+}
+.li_link:hover{
+	color: black;
+}
+/*Главная страница*/
+.section_area{
+	width: 100%;
+	padding: 4%
+}
+.real-content{
+	text-align: center;
+}
+.section_area_mobile{
+	display: none;
+	padding: 2% 0 2% 0;
+}
+.mobile_content  h3{
+	font-size: 100%;
+}
+.mobile_content  p{
+	font-size: 80%;
+}
+.mobile_content img{
+	width: 30%;
+}
+.center{
+	margin: auto;
+	text-align: center;
+}
+/*Главная страница*/
+/*Страница с брендами*/
+.inner_line{
+	background-color: #F3F3F3;
+	height: 30px;
+}
+.side_bar_content{
+	float: left;
+	margin-top: 3%;
+	padding-left: 5%;
+	width: 25%;
+}
+.side_bar>ul>li>a{
+	font-size: 85%;
+}
+.sort_h2{
+	font-size: 110%;
+	font-weight: bold;
+}
+.sort_h3{
+	font-size: 90%;
+	font-weight: bold;
+}
+.footer-section{
+	padding-top: 3%;
+}
+
+.lable_check{
+	display: flex;
+	align-items: center;
+}
+.product_container{
+	width: 75%;
+	float: left;
+	margin-top: 3%;
+}
+.btn-group>button{
+	background-color: #F8F9FA;
+	color:black;
+}
+.btn-group>button:hover{
+	background-color: #F8F9FA;
+	color:black;
+}
+.btn-light{
+	margin-left: 2%;
+	height: 80%;
+	width: 15%;
+}
+.first_button_span{
+	float: left;
+	display: block;
+	background-color: black;
+	margin-left: 4%;
+	width: 4px;
+	height: 10px;	
+}
+.second_button_span{
+	float: left;
+	display: block;
+	background-color: black;
+	margin-left: 5%;
+	width: 8px;
+	height: 12px; 
+	
+}
+.third_button_span{
+	float: left;
+	display: block;
+	background-color: black;
+	margin-left: 3%;
+	width: 12px;
+	height: 12px;
+	
+}
+.product{
+	text-align: center;
+	margin-top: 1.5%;	
+}
+.product:hover{
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.product_img>img{
+	margin-top: 12%;
+	height: 85%;
+	width: 85%;
+}
+.product_name>h3{
+	margin-top: 12%;
+	margin-bottom: 0;
+	font-size: 100%
+}
+.product_name>p{
+	font-size: 80%
+}
+.product_color{
+	margin-top: 4%;
+	padding-bottom: 26%;
+}
+.product_color span{
+	display: block;
+	background-color: red;
+	border-radius: 50%;
+	border: 2px solid grey;
+	width: 25px;
+	height: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.btn-toolbar{
+	margin-bottom: 2%;
+}
+.mr-2{
+	margin-left: 20%;
+	margin-right: 80%;
+	
+}
+/*Медиа запросы*/
+@media (max-width: 960px) {
+	.section_area_mobile{
+		display: block;
+	}
+	.section_area{
+		display: none;
+    }
+    .col_with_img{
+    	display: none;
+    }
+    footer{
+    	height: 60%;
+    }
+
+}
